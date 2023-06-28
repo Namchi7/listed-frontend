@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path="/signin" element={<SignIn />} />
+        <Route exact path="/" element={<SignIn />} />
         <Route exact path="/dashboard" element={<Dashboard />} />
         <Route path="*" element={<h2>404 - Page Not Found</h2>} />
       </Routes>
