@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import { Auth0Provider } from "@auth0/auth0-react";
 import { store } from "./components/redux/store";
 import { Provider } from "react-redux";
@@ -20,11 +20,11 @@ root.render(
       redirect_uri: `${baseUrl}/dashboard`,
     }}
   >
-    <Router>
-      <Provider store={store}>
+    <Provider store={store}>
+      <Router>
         <App />
-      </Provider>
-    </Router>
+      </Router>
+    </Provider>
   </Auth0Provider>
   // </React.StrictMode>
 );
