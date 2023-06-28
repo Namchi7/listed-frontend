@@ -1,0 +1,213 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftSide {
+    height: 100%;
+    width: 40.83%;
+    /* flex: 1 1 588px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.boardText {
+    font-family: Montserrat;
+    font-size: clamp(60px, 4vw + 1rem , 72px);
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+
+.rightSide {
+    height: 100%;
+    width: 59.17%;
+    /* flex: 1 1 852px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 2rem;
+}
+
+.signInCont {
+    flex-basis: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.signInCont > * {
+    width: 100%;
+}
+
+.signInHead {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.signIn {
+    font-family: Montserrat;
+    font-size: clamp(26px, 1vw + 1.4rem ,36px);
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.signInInstr {
+    font-family: Lato;
+    font-size: clamp(10px, 0.5vw + 0.75rem ,16px);
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.auths {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.auth {
+    flex-basis: 180px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 19px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.auth:hover {
+    cursor: pointer;
+}
+
+.authIcon {
+    height: clamp(10px, 0.5vw + 0.5rem ,14px);
+}
+
+.authText {
+    font-family: Montserrat;
+    font-size: clamp(7px, 0.5vw + 0.3rem ,12px);
+    font-weight: 400;
+    line-height: 14.63px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #858585;
+}
+
+
+.form {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.form > * {
+    width: 100%;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.formLabel {
+    font-family: Lato;
+    font-size: clamp(10px, 0.5vw + 0.75rem ,16px);
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.formInput {
+    padding: 10px 15px;
+    font-family: Lato;
+    font-size: clamp(10px, 0.5vw + 0.75rem ,16px);
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.forgotPwd {
+    font-family: Lato;
+    font-size: clamp(10px, 0.5vw + 0.75rem ,16px);
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #346BD4;
+}
+
+.signInBtn {
+    border: 1px solid transparent;
+    padding: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: clamp(10px, 0.5vw + 0.75rem ,16px);
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.signInBtn:hover {
+    cursor: pointer;
+}
+
+.registerText {
+    font-family: Lato;
+    font-size: clamp(10px, 0.5vw + 0.75rem ,16px);
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #858585;
+}
+
+.registerText > a {
+    color: #346BD4;
+}
